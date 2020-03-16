@@ -1,0 +1,121 @@
+- name: Ashish Misra
+  designation: Assistant Professor
+  img: default.jpg
+  profile: https://sites.google.com/a/iith.ac.in/misralab/
+  researchInterests:
+    - Cancer Genomics and Therapeutics
+    - Machine Learning
+    - Genome Editing
+    - Protein Engineering
+
+- name: Balaji Iyer
+  designation: Associate Professor
+  img: Balaji_Iyer.jpg
+  profile: http://iyerb.weebly.com/
+  researchInterests:
+    - Biomimetic Materials
+    - Structure-Function relationships
+    - Biophysics, Polymer Physics
+    - Multicomponent Simulations
+
+- name: Chandra Shekhar Sharma
+  designation: Associate Professor
+  img: default.jpg
+  profile: https://iith.ac.in/~cssharma/
+  researchInterests:
+    - Hierarchical Nanostructured Polymer
+    - Carbon based MEMS
+    - Bio-MEMS
+    - Bio-inspired functional surfaces 
+    - Waste Management
+
+- name: Debaprasad Shee
+  designation: Associate Professor
+  img: dps.jpeg
+  profile: 
+  researchInterests:
+    - Catalysis over supported metals and metal oxides
+    - Nanostructured catalysts
+    - Structure property correlations
+    - Fuels and chemicals from renewable sources
+    - Reaction Kinetics
+
+- name: Harish Nagaraj Dixit
+  designation: Associate Professor
+  img: Harish_N_Dixit.jpg
+  profile: www.iith.ac.in/~hdixit
+  researchInterests:
+    - Interfacial flows
+    - Multiphase flows
+    - Hydrodynamic stability
+    - Electrohydrodynamics
+
+- name: Kishlay Mitra
+  designation: Associate Professor
+  img: km.jpg
+  profile: https://sites.google.com/site/kishalaymitra/
+  researchInterests:
+    - Machine Learning
+    - Artificial Intelligence
+    - Multi-objective optimization
+    - Optimization Under Uncertainty
+    - Optimal control
+    - Uncertainty quantification
+    - Surrogate optimization,
+    - Systems biology
+    - Supply Chain
+    - Battery management system
+    - Climate change
+    - Wind power
+    - Bioenergy
+    - waste management
+
+- name: Lopamudra Giri
+  designation: 
+  img: default.jpg
+  profile: 
+  researchInterests:
+    - 
+
+- name: Mudrika Khandelwal
+  designation: Associate Professor
+  img: Mudrika_Khandelwal.jpg
+  profile: https://iith.ac.in/~mudrika/
+  researchInterests:
+    - Mechanism and applications
+    - High performance green composites
+    - Liquid crystals and self-assembly of rod-like entities
+    - Strategies for developing anti-fouling and anti-microbial materials
+    - Materials for tissue scaffolding
+    - In situ grown composites
+    - Materials for drug delivery
+
+- name: Saptarshi Majumdar
+  designation: Professor
+  img: sm.jpg
+  profile: https://che.iith.ac.in/wp-content/uploads/Saptarshi.pdf
+  researchInterests:
+    - Multiscale Design of Polymeric Biomaterials
+    - Multiscale Simulations
+    - Industrial Process and Analysis
+
+- name: Satyavrata Samavedi
+  designation: Assistant Professor
+  img: ssv.jpg
+  profile: https://samavedi.weebly.com/
+  researchInterests:
+    - Polymer physics & characterization
+    - Electrospinning
+    - Biomaterials
+    - Drug delivery
+    - Inflammation
+
+- name: Suhanya Duraiswamy
+  designation: Assistant Professor
+  img: suhanya_duraiswamy.jpg
+  profile: https://iith.ac.in/~suhanya
+  researchInterests:
+    - Microfluidics
+    - Microreaction engineering for nanochemistry
+    - Biodiagnostics
+    - Microparticles synthesis and manipulations
