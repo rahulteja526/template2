@@ -8,57 +8,29 @@ permalink: /people/
 
 <h2 class="center-text">Meet the Faculty</h2>
 
-<!--
-<h2 class="center-text">Meet the Faculty</h2>
-
-<div class="container">
-	<div class="row">
-        <div class="col-md-12">
-        {% for facMem in site.data.faculty %}
-        <div class="flip-card">
-            <div class="flip-card-inner">
-            <div class="flip-card-front">
-                <img src="{{site.baseurl}}/img/faculty/{{ facMem.img }}" alt="{{ facMem.name }}" style="width:300px;height:300px;">
-            </div>
-            <div class="flip-card-back">
-                <h1>{{ facMem.name }}</h1> 
-                <p>{{ facMem.designation }}</p> 
-                {% for subitem in facMem.researchInterests %}
-                    <li class="text-left" style="font-size:14px; margin:0">{{ subitem }}</li>
-                {%- if forloop.index == 5 -%}
-                {%- break -%}
-                {%- endif -%}
-                {% endfor %}
-            </div>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-    </div>
-</div>
--->
 <div class="container">
 <div class="row">
 			
     <!-- Faculty Listing -->
     {% for facMem in site.data.faculty %}
-    <div class="col-md-4">
-        <div class="flip-card" style="padding-left:5%;">
-          <div class="flip-card-inner">
-            <div class="flip-card-front"><h3 style="position:relative;bottom:-85%;">{{ facMem.name }}</h3>
-              <img class="img_mod" src="{{site.baseurl}}/img/faculty/{{ facMem.img }}" alt="{{ facMem.name }}" style="width:300px;height:300px;">
-            </div>
-            <div class="flip-card-back">
-              <h3 class="h1_mod"><a style="color:white;" href="{{ facMem.profile }}">{{ facMem.name }}</a></h3>
-              <p>{{ facMem.designation }}</p>
-                  {% for subitem in facMem.researchInterests %}
-                        <li class="text-left" style="font-size:14px; margin:0; padding:3%">{{ subitem }}</li>
-                    {%- if forloop.index == 5 -%}
-                    {%- break -%}
-                    {%- endif -%}
-                    {% endfor %}
-            </div>
-          </div>
+    <div class="col-md-3 col-sm-6" style=" padding: 2%;">
+        <div class="card" style="background-color: antiquewhite; padding: 2%;">
+        <img src="{{site.baseurl}}/img/faculty/{{ facMem.img }}" alt="{{ facMem.name }}" style="width:100%">
+        <div class="">
+            <h4><b>{{ facMem.name }}</b></h4> 
+            <p><b>{{ facMem.designation }}</b></p>
+            <p><b>Dept:</b> {{ facMem.department }}</p> 
+            <p><b>Research Interests:</b></p>
+                <ol>
+                {% for subitem in facMem.researchInterests %}
+                    <li class="text-left" style="font-size:14px; margin:0; padding:0% 1%">{{ subitem }}</li>
+                {%- if forloop.index == 5 -%}
+                {%- break -%}
+                {%- endif -%}
+                {% endfor %}
+                </ol>
+            <p><b>Contact:</b> {{ facMem.contact }}</p>
+        </div>
         </div>
     </div>
     {% endfor %}

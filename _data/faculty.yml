@@ -1,15 +1,18 @@
 - name: Ashish Misra
   designation: Assistant Professor
-  img: default.jpg
+  department: Biotechnology
+  img: Ashish-pic.jpg
   profile: https://sites.google.com/a/iith.ac.in/misralab/
   researchInterests:
     - Cancer Genomics and Therapeutics
     - Machine Learning
     - Genome Editing
     - Protein Engineering
+  contact: 040-23016196  
 
 - name: Balaji Iyer
   designation: Associate Professor
+  department: Chemical Engineering
   img: Balaji_Iyer.jpg
   profile: http://iyerb.weebly.com/
   researchInterests:
@@ -17,10 +20,12 @@
     - Structure-Function relationships
     - Biophysics, Polymer Physics
     - Multicomponent Simulations
+  contact: 040-23018441
 
 - name: Chandra Shekhar Sharma
   designation: Associate Professor
-  img: default.jpg
+  department: Chemical Engineering
+  img: Chandra.jpeg
   profile: https://iith.ac.in/~cssharma/
   researchInterests:
     - Hierarchical Nanostructured Polymer
@@ -28,9 +33,11 @@
     - Bio-MEMS
     - Bio-inspired functional surfaces 
     - Waste Management
+  contact: 040-2301 6112
 
 - name: Debaprasad Shee
   designation: Associate Professor
+  department: Chemical Engineering
   img: dps.jpeg
   profile: 
   researchInterests:
@@ -39,9 +46,11 @@
     - Structure property correlations
     - Fuels and chemicals from renewable sources
     - Reaction Kinetics
+  contact: 040-2301 6109
 
 - name: Harish Nagaraj Dixit
   designation: Associate Professor
+  department: Mechanical & Aerospace Engineering
   img: Harish_N_Dixit.jpg
   profile: www.iith.ac.in/~hdixit
   researchInterests:
@@ -49,9 +58,11 @@
     - Multiphase flows
     - Hydrodynamic stability
     - Electrohydrodynamics
+  contact: 040-23017119
 
 - name: Kishlay Mitra
   designation: Associate Professor
+  department: Chemical Engineering
   img: km.jpg
   profile: https://sites.google.com/site/kishalaymitra/
   researchInterests:
@@ -69,16 +80,24 @@
     - Wind power
     - Bioenergy
     - waste management
+  contact: 040-23017016
 
 - name: Lopamudra Giri
-  designation: 
-  img: default.jpg
-  profile: 
+  designation: Associate Professor
+  department: Chemical Engineering
+  img: Lopamudra_Giri.jpg
+  profile: https://www.iith.ac.in/~giril/
   researchInterests:
-    - 
+    - Neuroimaging
+    - Systems Biology
+    - Drug screening
+    - GPCR targeting drugs
+    - data analysis
+  contact: 
 
 - name: Mudrika Khandelwal
   designation: Associate Professor
+  department: Materials Science and MEtallurgical Engineering
   img: Mudrika_Khandelwal.jpg
   profile: https://iith.ac.in/~mudrika/
   researchInterests:
@@ -89,18 +108,22 @@
     - Materials for tissue scaffolding
     - In situ grown composites
     - Materials for drug delivery
+  contact: 040-2301 7118
 
 - name: Saptarshi Majumdar
   designation: Professor
+  department: Chemical Engineering
   img: sm.jpg
   profile: https://che.iith.ac.in/wp-content/uploads/Saptarshi.pdf
   researchInterests:
     - Multiscale Design of Polymeric Biomaterials
     - Multiscale Simulations
     - Industrial Process and Analysis
+  contact: 040-23016087
 
 - name: Satyavrata Samavedi
   designation: Assistant Professor
+  department: Chemical Engineering
   img: ssv.jpg
   profile: https://samavedi.weebly.com/
   researchInterests:
@@ -109,9 +132,11 @@
     - Biomaterials
     - Drug delivery
     - Inflammation
+  contact: 040-23016141
 
 - name: Suhanya Duraiswamy
   designation: Assistant Professor
+  department: Chemical Engineering
   img: suhanya_duraiswamy.jpg
   profile: https://iith.ac.in/~suhanya
   researchInterests:
@@ -119,3 +144,4 @@
     - Microreaction engineering for nanochemistry
     - Biodiagnostics
     - Microparticles synthesis and manipulations
+  contact: 
