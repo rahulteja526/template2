@@ -5,16 +5,46 @@ permalink: /research/
 ---
 
 <style>
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
+* {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  background-color: gray;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
 }
 
 /* Caption text */
@@ -40,6 +70,7 @@ img {vertical-align: middle;}
 
 /* The dots/bullets/indicators */
 .dot {
+  cursor: pointer;
   height: 15px;
   width: 15px;
   margin: 0 2px;
@@ -49,7 +80,7 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active {
+.active, .dot:hover {
   background-color: #717171;
 }
 
@@ -62,63 +93,79 @@ img {vertical-align: middle;}
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
 </style>
+<h2 class="center-text">Research Highlights</h2>
+ <!-- Slideshow container -->
+ <div class="slideshow-container">
 
-<h2>Research Highlights</h2>
-
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 2</div>
-  <img src="{{ site.baseurl }}/img/research/Heatmap-Cancer.jpg" style="width:100%">
-  <div class="text">Heatmap Cancer</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 2</div>
-  <img src="{{ site.baseurl }}/img/research/cell-growth.jpg" style="width:100%">
-  <div class="text">Cell growth in 3D printed biochip. Phase contrast imaging of cell morphology inside the channel for  and differential interference contrast imaging of cell morphology in chip with panorama imaging</div>
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center;display: none;">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
+    
+    {% for rsrch in site.data.research %}
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="{{ site.baseurl }}/img/research/{{ rsrch.link }}" style="width:100%">
+      <div class="text">{{ rsrch.text }}</div>
+    </div>
+    {% endfor %}
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+    <span class="dot" onclick="currentSlide(10)"></span>
+    <span class="dot" onclick="currentSlide(11)"></span>
+    <span class="dot" onclick="currentSlide(12)"></span>
+    <span class="dot" onclick="currentSlide(13)"></span>
+    <span class="dot" onclick="currentSlide(14)"></span>
+    <span class="dot" onclick="currentSlide(15)"></span>
+    <span class="dot" onclick="currentSlide(16)"></span>
+    <span class="dot" onclick="currentSlide(17)"></span>
+    <span class="dot" onclick="currentSlide(18)"></span>
+  </div> 
 
 <script>
 var slideIndex = 0;
 showSlides();
 
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 5000); // Change image every 2 seconds
-}
+} 
 </script>
