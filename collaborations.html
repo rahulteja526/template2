@@ -16,46 +16,24 @@ permalink: /collaborations/
 
 <div class="container">
 
-    <div class="row">
+    {% for collab in site.data.collaborations %}
+    <div class="row" style="padding: 2% 0%;">
         <div class="col-md-12 collab">
             <div class="col-md-2 col-sm-4">
-                <img src="../img/faculty/Mudrika_Khandelwal.jpg" alt="" height="150" width="150">
+                <img src="../img/faculty/{{ collab.party1 }}" alt="{{ collab.name1 }}" height="150" width="150">
             </div>
             <div class="col-md-8 col-sm-4">
                 <p style="padding-top: 1%;"></p>
-                <p style="border-top: 1px solid black; font-size: small;">Title: Bacterial cellulose derived tunable nanostructured carbon as high performance anode for lithium ion battery</p>
-                <p style="font-size: small;">Funding Agency: DST SERB</p>
-                <p style="border-bottom: 1px solid black; font-size: small;">Duration: 2019-2022</p>
+                <p style="border-top: 1px solid black; font-size: small;"><b>Title:</b> {{ collab.title }}</p>
+                <p style="font-size: small;"><b>Funding Agency:</b> {{ collab.agency }}</p>
+                <p style="border-bottom: 1px solid black; font-size: small;"><b>Duration:</b> {{ collab.period }}</p>
                 <p style="padding-bottom: 1%;"></p>
             </div>
             <div class="col-md-2 col-sm-4">
-                <img src="../img/faculty/Chandra.jpeg" alt="" height="150" width="150">
+                <img src="../img/faculty/{{ collab.party2 }}" alt="{{ collab.name2 }}" height="150" width="150">
             </div>
         </div>
     </div>
-
-</div>
-
-
-
-<div class="container">
-
-    <div class="row">
-        <div class="col-md-12 collab">
-            <div class="col-md-2 col-sm-4">
-                <img src="../img/faculty/Mudrika_Khandelwal.jpg" alt="" height="150" width="150">
-            </div>
-            <div class="col-md-8 col-sm-4">
-                <p style="padding-top: 1%;"></p>
-                <p style="border-top: 1px solid black; font-size: small;">Title: Polymer and carbon based three dimensional micropatterned fabric with enhanced wettability contrast</p>
-                <p style="font-size: small;">Funding Agency: DST UKIERI</p>
-                <p style="border-bottom: 1px solid black; font-size: small;">Duration: 2015-2017</p>
-                <p style="padding-bottom: 1%;"></p>
-            </div>
-            <div class="col-md-2 col-sm-4">
-                <img src="../img/faculty/Chandra.jpeg" alt="" height="150" width="150">
-            </div>
-        </div>
-    </div>
+    {% endfor %}
 
 </div>
