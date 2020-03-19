@@ -13,7 +13,7 @@ permalink: /people/
 			
     <!-- Faculty Listing -->
     {% for facMem in site.data.faculty %}
-    <div class="col-md-3 col-sm-6" style=" padding: 2%;">
+    <div class="col-md-3 col-sm-6 center-text" style=" padding: 2%;">
         <div class="card" style="background-color: antiquewhite; padding: 2%;">
         <img src="{{site.baseurl}}/img/faculty/{{ facMem.img }}" alt="{{ facMem.name }}" style="width:100%">
         <div class="">
@@ -29,7 +29,7 @@ permalink: /people/
                 {%- endif -%}
                 {% endfor %}
                 </ol>
-            <p><b>Contact:</b> {{ facMem.contact }}</p>
+            <p><b>Email:</b> {{ facMem.email }}</p>
         </div>
         </div>
     </div>

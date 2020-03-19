@@ -8,7 +8,8 @@
     - Machine Learning
     - Genome Editing
     - Protein Engineering
-  contact: 040-23016196  
+  contact: 040-23016196
+  email: ashishmira@bt.iith.ac.in
 
 - name: Balaji Iyer
   designation: Associate Professor
@@ -21,6 +22,7 @@
     - Biophysics, Polymer Physics
     - Multicomponent Simulations
   contact: 040-23018441
+  email: balaji@che.iith.ac.in
 
 - name: Chandra Shekhar Sharma
   designation: Associate Professor
@@ -34,6 +36,7 @@
     - Bio-inspired functional surfaces 
     - Waste Management
   contact: 040-2301 6112
+  email: cssharma@che.iith.ac.in
 
 - name: Debaprasad Shee
   designation: Associate Professor
@@ -47,6 +50,7 @@
     - Fuels and chemicals from renewable sources
     - Reaction Kinetics
   contact: 040-2301 6109
+  email: dshee@che.iith.ac.in
 
 - name: Harish Nagaraj Dixit
   designation: Associate Professor
@@ -59,6 +63,7 @@
     - Hydrodynamic stability
     - Electrohydrodynamics
   contact: 040-23017119
+  email: hdixit@mae.iith.ac.in
 
 - name: Kishlay Mitra
   designation: Associate Professor
@@ -81,6 +86,7 @@
     - Bioenergy
     - waste management
   contact: 040-23017016
+  email: kishalay@che.iith.ac.in
 
 - name: Lopamudra Giri
   designation: Associate Professor
@@ -94,21 +100,20 @@
     - GPCR targeting drugs
     - data analysis
   contact: 
+  email: giril@che.iith.ac.in
 
 - name: Mudrika Khandelwal
   designation: Associate Professor
-  department: Materials Science and MEtallurgical Engineering
+  department: Materials Science and Metallurgical Engineering
   img: Mudrika_Khandelwal.jpg
   profile: https://iith.ac.in/~mudrika/
   researchInterests:
-    - Mechanism and applications
     - High performance green composites
-    - Liquid crystals and self-assembly of rod-like entities
-    - Strategies for developing anti-fouling and anti-microbial materials
+    - Liquid crystals and self-assembly
+    - Anti-fouling and anti-microbial materials
     - Materials for tissue scaffolding
-    - In situ grown composites
-    - Materials for drug delivery
   contact: 040-2301 7118
+  email: mudrika@msme.iith.ac.in
 
 - name: Saptarshi Majumdar
   designation: Professor
@@ -120,6 +125,7 @@
     - Multiscale Simulations
     - Industrial Process and Analysis
   contact: 040-23016087
+  email: saptarshi@che.iith.ac.in
 
 - name: Satyavrata Samavedi
   designation: Assistant Professor
@@ -133,6 +139,7 @@
     - Drug delivery
     - Inflammation
   contact: 040-23016141
+  email: samavedi@che.iith.ac.in
 
 - name: Suhanya Duraiswamy
   designation: Assistant Professor
@@ -145,3 +152,4 @@
     - Biodiagnostics
     - Microparticles synthesis and manipulations
   contact: 
+  email: suhanya@che.iith.ac.in
