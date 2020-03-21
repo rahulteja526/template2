@@ -12,6 +12,9 @@ permalink: /collaborations/
   flex: -1; /*grow*/
 }
 </style>
+
+<link rel="stylesheet" href="{{ site.baseurl }}/css/team1.css">
+
 <h2 class="center-text">Collaborations</h2>
 
 <div class="container">
@@ -20,7 +23,16 @@ permalink: /collaborations/
     <div class="row" style="padding: 2% 0%;">
         <div class="col-md-12 collab">
             <div class="col-md-2 col-sm-4">
-                <img src="../img/faculty/{{ collab.party1 }}" alt="{{ collab.name1 }}" height="150" width="150">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img class="img_mod" src="../img/faculty/{{ collab.party1 }}" alt="{{ collab.name1 }}" height="150" width="150">
+                      </div>
+                      <div class="flip-card-back">
+                        <p class="h1_mod" style="position: relative; bottom: -30%;">{{ collab.name1 }}</p>
+                      </div>
+                    </div>
+                  </div>
             </div>
             <div class="col-md-8 col-sm-4">
                 <p style="padding-top: 1%;"></p>
@@ -30,7 +42,16 @@ permalink: /collaborations/
                 <p style="padding-bottom: 1%;"></p>
             </div>
             <div class="col-md-2 col-sm-4">
-                <img src="../img/faculty/{{ collab.party2 }}" alt="{{ collab.name2 }}" height="150" width="150">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img class="img_mod" src="../img/faculty/{{ collab.party2 }}" alt="{{ collab.name2 }}" height="150" width="150">
+                      </div>
+                      <div class="flip-card-back">
+                        <p class="h1_mod" style="position: relative; bottom: -30%;">{{ collab.name2 }}</p>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </div>
     </div>
